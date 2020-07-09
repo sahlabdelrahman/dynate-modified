@@ -191,3 +191,9 @@ header .sidenav a {
 }
 
 /* End video section */
+
+/* Start footer */
+.go-web:hover {
+    color: #039be5
+}
+/* End footer */
