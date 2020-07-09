@@ -15,6 +15,7 @@ header .nav-wrapper {
     display: flex;
     justify-content: space-between;
 }
+
 header .nav-wrapper .sidenav-trigger i {
     line-height: 90px;
     color: #0D6495;
@@ -39,12 +40,25 @@ header .sidenav a {
 
 
 @media (min-width: 992px) {
-    header {
-        /* position: fixed;
-        width: 100%;
-        z-index: 99; */
+    header .nav-wrapper ul a {
+        font-size: 12px;
+        padding: 0 10px;
     }
 }
+
+@media (min-width: 992px) and (max-width: 1212px) {
+    header .nav-wrapper .retina-logo img {
+        width: 90px;
+        height: 40px;
+    }
+
+    header .nav-wrapper ul a {
+        font-size: 10px;
+        padding: 0 8px;
+    }
+}
+
+
 
 /* End header */
 

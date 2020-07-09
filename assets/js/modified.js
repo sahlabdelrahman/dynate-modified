@@ -10,4 +10,7 @@ $(document).ready(function(){
 
     // scrollspy initialization
     $('.scrollspy').scrollSpy();
+
+    // modal initialization
+    $('.modal').modal();
 });
